@@ -15,11 +15,7 @@ public class Calc extends CordovaPlugin {
 
     public Calc(){}
 
-    public void initialize(CordovaInterface cordova, CordovaWebView webView) {
-        super.initialize(cordova, webView);    
-    }
-
-
+    
     @Override
     public boolean execute(String action, JSONArray args,final CallbackContext callbackContext) throws JSONException {
         JSONObject data = args.getJSONObject(0);

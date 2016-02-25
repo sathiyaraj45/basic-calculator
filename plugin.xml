@@ -21,7 +21,7 @@
                 <param name="android-package" value="com.calculator.Calc"/>
             </feature>
         </config-file>
-        <source-file src="src/android/com/calculator/Calc.java" target-dir="src/com/calculator/" />
+        <source-file src="src/android/com/calculator/Calc.java" target-dir="src/com/calculator" />
     </platform>
 
 </plugin>

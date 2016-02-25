@@ -1,6 +1,7 @@
 package com.calculator;
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;
+import org.apache.cordova.CordovaWebView;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -13,6 +14,11 @@ import org.json.JSONObject;
 public class Calc extends CordovaPlugin {
 
     public Calc(){}
+
+    public void initialize(CordovaInterface cordova, CordovaWebView webView) {
+        super.initialize(cordova, webView);    
+    }
+
 
     @Override
     public boolean execute(String action, JSONArray args,final CallbackContext callbackContext) throws JSONException {

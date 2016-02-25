@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.sathiya.calculator"
-    version="0.2.11">
+    version="0.0.1">
     <name>Calculator</name>
     <description>The coolest Plugin ever implemented</description>
     <license>Apache 2.0</license>
@@ -21,7 +21,7 @@
                 <param name="android-package" value="com.android.calculator.Calc"/>
             </feature>
         </config-file>
-        <source-file src="src/android/com/Calc.java" target-dir="src/com/" />
+        <source-file src="src/android/com/calculator/Calc.java" target-dir="src/com/calculator/" />
     </platform>
 
 </plugin>

@@ -1,18 +1,26 @@
 {
-    "version": "0.1",
-    "name": "com.sathiya.calculator",
-    "cordova_name": "Basic calculator",
-    "description": "Calculate basic arithmetic operation",
-    "license": "Apache 2.0",
-    "repo": "",
-    "issue": "",
-    "keywords": [
-        "cordova",
-        "device"
-    ],
-    "platforms": [
-        "android",
-    ],
-    "engines": [],
-    "englishdoc": ""
+  "name": "Basic-calculator",
+  "version": "0.0.1",
+  "description": "Basic arithmetic operation logic",
+  "scripts": {
+    "test": "echo error"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sathiyaraj45/basic-calculator.git"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "app",
+    "version",
+    "appversion",
+    "plugin"
+  ],
+  "author": "sathiyaraj45",
+  "license": "Public",
+  "bugs": {
+    "url": "https://github.com/sathiyaraj45/basic-calculator/issues"
+  },
+  "homepage": ""
 }

@@ -4,9 +4,9 @@
     id="basic-calculator"
     version="0.0.1">
     <name>Calculator</name>
-    <description>The coolest Plugin ever implemented</description>
-    <license>Apache 2.0</license>
-    <keywords>cordova,calculator</keywords>
+    <description>Baisc arithmetic operation</description>
+    <license>Pbulic</license>
+    <keywords>Arithmetic, calculator</keywords>
     <repo></repo>
     <issue></issue>
 
